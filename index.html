@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module_2-solution</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            border: none;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+            font-size: 300%;
+        }
+        .maindiv{
+            width: 100%;
+        }
+        .block{
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            
+            box-sizing: border-box;
+            clear: right;
+        }
+        .blocks{
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            
+            box-sizing: border-box;
+            clear: right;
+        }
+        .block1{
+           background-color: gray;
+           
+           
+        }
+        /* .block2{
+           background-color: red;
+        
+           width: fit-content;
+           float: right; */
+        
+        
+        .Chicken{
+            float: right;
+            color: black;
+            background-color: red;
+            font-size: 2em;
+            
+        }
+        .Beef{
+            float: right;
+            color: black;
+            background-color: pink;
+            font-size: 2em;
+
+        }
+        .Sushi{
+            float: right;
+            color: black;
+            background-color: yellow;
+            font-size: 2em;
+        }
+        .block3{
+            clear: right;
+            font-size: 1.5em;
+        }
+        @media (max-width:991px) and (min-width:768px){
+            .block{
+                width: 50%;
+            }
+            .blocks {
+                width: 100%;
+            }
+        }
+        @media (max-width:767px){
+            .block{
+                width: 100%;
+            }
+            .blocks{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class="maindiv">
+        <div class="block">
+            <div class="block1">
+            <div class="Chicken">Chicken</div>
+            <div class="block3"> ipsum dolor sit amet consectetur adipisicing elit. Fugit, velit. Sapiente unde dignissimos ducimus ad dolor laudantium voluptate hic non maxime, ipsum maiores nihil aperiam amet explicabo magni veniam ipsam!
+            </div></div></div>
+        <div class="block">
+            <div class="block1">
+            <div class="Beef">Beef</div>
+            <div class="block3"> ipsum dolor sit amet consectetur adipisicing elit. Fugit, velit. Sapiente unde dignissimos ducimus ad dolor laudantium voluptate hic non maxime, ipsum maiores nihil aperiam amet explicabo magni veniam ipsam!
+        </div></div></div>
+        <div class="blocks">
+            <div class="block1">
+            <div class="Sushi">Sushi</div>
+            <div class="block3"> ipsum dolor sit amet consectetur adipisicing elit. Fugit, velit. Sapiente unde dignissimos ducimus ad dolor laudantium voluptate hic non maxime, ipsum maiores nihil aperiam amet explicabo magni veniam ipsam!
+        </div></div></div>
+
+    </div>
+</body>
+</html>

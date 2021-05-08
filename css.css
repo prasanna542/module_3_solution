@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 300%;
+}
+.maindiv{
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+    box-sizing: border-box;
+    clear: right;
+}
+.blocks{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+    box-sizing: border-box;
+    clear: right;
+}
+.block1{
+   background-color: gray;
+   
+   
+}
+
+
+
+.Chicken{
+    float: right;
+    color: black;
+    background-color: red;
+    font-size: 2em;
+    
+}
+.Beef{
+    float: right;
+    color: black;
+    background-color: pink;
+    font-size: 2em;
+
+}
+.Sushi{
+    float: right;
+    color: black;
+    background-color: yellow;
+    font-size: 2em;
+}
+.block3{
+    clear: right;
+    font-size: 1.5em;
+}
+@media (max-width:991px) and (min-width:768px){
+    .block{
+        width: 50%;
+    }
+    .blocks {
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    .block{
+        width: 100%;
+    }
+    .blocks{
+        width: 100%;
+    }
+}
